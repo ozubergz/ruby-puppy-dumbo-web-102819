@@ -9,7 +9,7 @@ class Dog
   end
   
   def save
-    initialize self.name
+    initialize(self.name)
   end
   
   def self.all
